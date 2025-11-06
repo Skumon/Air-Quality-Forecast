@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+.env
+.venv/
+venv/
+.envrc
+*.log
+.DS_Store
+# dane/artefakty
+data/raw/
+data/interim/
+outputs/
+models/
+# IDE
+.vscode/
+.idea/
