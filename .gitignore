@@ -1,0 +1,24 @@
+# Ignoruj lokalną konfigurację
+config.yaml
+
+# Ignoruj dane i modele
+UCI Beijing/
+models/
+*.h5
+*.ckpt
+
+# lokalny cache i wyniki
+.cache/
+runs/
+models/
+*.keras
+*.h5
+
+
+# Ignoruj środowiska
+.env/
+venv/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
